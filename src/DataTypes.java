@@ -6,7 +6,7 @@ public class DataTypes {
 
         long s = 0L;
         // below is a "foreach" loop which iterates through numbers
-        for (int x : numbers) {
+        for (Integer x : numbers) {
             s += x;
         }
         return s;
